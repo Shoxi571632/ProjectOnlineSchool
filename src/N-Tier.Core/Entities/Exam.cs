@@ -13,6 +13,8 @@ public class Exam : BaseEntity , IAuditedEntity
     public int EmployeeId { get; set; }
     public DateTime StartTime { get; set; }
     public DateTime EndTime { get; set; }
+
+
     public DateTime? CreateOn { get; set; }
     public string? UpdateBy { get; set; }
     public DateTime? UpdateOn { get; set; }
